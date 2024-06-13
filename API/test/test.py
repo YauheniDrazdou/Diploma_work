@@ -118,7 +118,7 @@ def test_pet_delete():
     pet_id = test_create_pet
     response = requests.delete(url=f'{URL}pet/{pet_id}')
     assert response.status_code == 404
-
+ def
 
 
 
